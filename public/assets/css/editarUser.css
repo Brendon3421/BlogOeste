@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #12ac8e;
+    --primary-color-dark: #0d846c;
+    --primary-color-light: #e9f7f7;
+    --secondary-color: #9400D3;
+    --text-dark: #333333;
+    --text-light: #767278;
+    --white: #ffff;
+    --max-witdh: 12000px;
+    --background-section: #333333;
+
+    --trans03: all 0.2s ease;
+    --trans03: all 0.3s ease;
+    --trans04: all 0.4s ease;
+    --trans05: all 0.5s ease;
+
+}
+
+/* Estilizando o container principal */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    color: var(--secondary-color);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilizando os rótulos */
+label {
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 1px rgb(228, 122, 231);
+}
+
+
+
+button {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: var(--white);
+    color: #9400D3;
+    transition: var(--trans04) ;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.1);
+    border: none;
+}
+
+.errros {
+    color: red;
+}
+
+/* Estilizando a caixa de mensagem de sucesso */
+.alert-success {
+    color: green;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,61 @@
+
+:root {
+    --primary-color: #12ac8e;
+    --primary-color-dark: #0d846c;
+    --primary-color-light: #e9f7f7;
+    --secondary-color: #9400D3;
+    --text-dark: #333333;
+    --text-light: #767278;
+    --white: #ffff;
+    --max-witdh: 12000px;
+    --background-section: #333333;
+  
+    --trans03: all 0.2s ease;
+    --trans03: all 0.3s ease;
+    --trans04: all 0.4s ease;
+    --trans05: all 0.5s ease;
+  
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+
+.container {
+    width: 50rem;
+    
+}
+.container-eventos {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+
+}
+
+.event-container {
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container-eventos a i{
+    
+    position: relative;
+    font-size: 1.6rem;    
+    color: var(--secondary-color);
+    border-radius: 100%;
+}
+.container-eventos a i:hover{
+    position: relative;
+    font-size: 1.3rem;    
+}
+.container-filter{
+    background-color: var(--white);
+    box-shadow: 7px 7px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adicione um preenchimento para melhorar a aparência */
+}
+
